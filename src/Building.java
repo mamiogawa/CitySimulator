@@ -1,4 +1,3 @@
-
 public class Building {
 
 	   BuildingKind kind;
@@ -14,9 +13,9 @@ public class Building {
 		  this.leftUpSideX = x;
 		  this.leftUpSideY = y;
 		  
-		  // ‚½‚ß‚µ‚É@3 * 3 ‚ÌŒš•¨‚ğ’è‹`
+		  // ï¿½ï¿½ï¿½ß‚ï¿½ï¿½É@3 * 3 ï¿½ÌŒï¿½ï¿½ï¿½ï¿½ï¿½ï¿½`
 		  this.rightDownSideX = x + 2;
-		  this.rightDownSideY = x + 2;
+		  this.rightDownSideY = y + 2;
 		  this.kind = kind;
 		  
 	   }
